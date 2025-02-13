@@ -1,5 +1,7 @@
 clc
 clear
+addpath(genpath('func_ware'));
+addpath(genpath('solvers'));
 
 path0 = 'E:\ShuheZhang@Tsinghua\EM-FPM\2025_simulations\noise_test_20250212';
 path1 = '';
