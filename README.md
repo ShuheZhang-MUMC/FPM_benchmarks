@@ -13,3 +13,18 @@ One can add noise signals and LED shifting during the generation of FPM data, to
 | APIC         | Closed-formed FPM reconstruction. The codes are adapted from [here](https://github.com/rzcao/APIC-analytical-complex-field-reconstruction). [[Paper]](https://www.nature.com/articles/s41467-024-49126-y)                                                                                     |
 | FD-FPM       | FPM reconstruction using feature-domain loss function. [[Paper]](https://opg.optica.org/abstract.cfm?uri=optica-11-5-634)                                                                                                                                                                     |
 | VEM-FPM      | Variational EM algorithm for FPM reconstruction.       
+
+## Parameters in simulations
+
+| Params name               | Values  |                               |
+|---------------------------|---------|-------------------------------|
+| Pixel element size        | 4.8     | & $\upmu$m                    |
+| Wavelength                | 0.62863 | & $\upmu$m                    |
+| Numerical aperture        | 0.25    | &                             |
+| Magnification             | 10      | &                             |
+| LED height                | 50      | & mm                          |
+| LED distance              | 6       | & mm                          |
+| LED shape                 | Ring    | & {[}1,8,12,16,24,36,48,54{]} |
+| Pixels for Low-res image  | 128     | &                             |
+| Pixels for High-res image | 512     |                               |
+| Downsample rate           | 4       |                               |
