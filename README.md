@@ -15,10 +15,10 @@ One can add noise signals and LED shifting during the generation of FPM data, to
 | VEM-FPM      | Variational EM algorithm for FPM reconstruction.       
 
 ## How to use
--**Step 1** run "gen_img_batch.m" to generate the simulated FPM data. The data is saved with .mat file in the provided folders.
--**Step 2** run "recover/run_benchmarks.m" to perform reconstruction with different algorithms. The data loading path should be set so that the code will automatically load the .mat files generated from the first step.
+-**Step 1** run "gen_img_batch.m" to generate the simulated FPM data. The data is saved with .mat file in the provided folders. <br>
+-**Step 2** run "recover/run_benchmarks.m" to perform reconstruction with different algorithms. The data loading path should be set so that the code will automatically load the .mat files generated from the first step. <br>
 
-Users may adjust the noise signal and LED shifting strength to simulate the noise signals and LED uncertainties. 
+Users may adjust the noise signal and LED shifting strength to simulate the noise signals and LED uncertainties. <br> 
 The parameters for data generation can be also adjusted to test the code in different experimental conditions. 
 
 
