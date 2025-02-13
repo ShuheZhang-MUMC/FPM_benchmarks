@@ -44,7 +44,7 @@ func_all = {func1,func2,func3,func4,func5,func6};
 
 out = zeros(512,512,6);
 dur = zeros(6,1);
-parfor num_test = 1:6
+for num_test = 1:6
     [out(:,:,num_test),dur(num_test,1)] = func_all{num_test}(saved_data);
 end
 
