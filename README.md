@@ -16,15 +16,15 @@ One can add noise signals and LED shifting during the generation of FPM data, to
 
 ## Parameters in simulations
 
-| Params name               | Values  |                               |
-|---------------------------|---------|-------------------------------|
-| Pixel element size        | 4.8     | & $\upmu$m                    |
-| Wavelength                | 0.62863 | & $\upmu$m                    |
-| Numerical aperture        | 0.25    | &                             |
-| Magnification             | 10      | &                             |
-| LED height                | 50      | & mm                          |
-| LED distance              | 6       | & mm                          |
-| LED shape                 | Ring    | & {[}1,8,12,16,24,36,48,54{]} |
-| Pixels for Low-res image  | 128     | &                             |
-| Pixels for High-res image | 512     |                               |
-| Downsample rate           | 4       |                               |
+| Params name               | Values                                 |
+|---------------------------|----------------------------------------|
+| Pixel element size        | 4.8        um                 |
+| Wavelength                | 0.62863    um                  |
+| Numerical aperture        | 0.25                                 |
+| Magnification             | 10                                   |
+| LED height                | 50       mm                          |
+| LED distance              | 6        mm                          |
+| LED shape                 | Ring      [1,8,12,16,24,36,48,54] |
+| Pixels for Low-res image  | 128                                   |
+| Pixels for High-res image | 512                                    |
+| Downsample rate           | 4                                      |
