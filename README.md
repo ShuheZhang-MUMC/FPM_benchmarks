@@ -1,12 +1,3 @@
-<style>
-.center 
-{
-  width: auto;
-  display: table;
-  margin: auto;
-}
-</style>
-
 # FPM_benchmarks
 
 The repository provides MATLAB codes for 6 Fourier ptychographic microscopy (FPM) reconstruction algorithms for testing their performance. 
@@ -14,7 +5,7 @@ Run "gen_img_batch.m" to generate the simulated FPM data.
 One can add noise signals and LED shifting during the generation of FPM data, to simulate the comment challenges in FPM experiments. 
 
 ## FPM algorithms
-<div class="center">
+<center>
   
 | Name of Algo | Notes                                                                                                                                                                                                                                                                                         |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -25,7 +16,7 @@ One can add noise signals and LED shifting during the generation of FPM data, to
 | FD-FPM       | FPM reconstruction using feature-domain loss function. [[Paper]](https://opg.optica.org/abstract.cfm?uri=optica-11-5-634)                                                                                                                                                                     |
 | VEM-FPM      | Variational EM algorithm for FPM reconstruction.  
 
-</div>
+</center>
 
 ## How to use
 -**Step 1** run "gen_img_batch.m" to generate the simulated FPM data. The data is saved with .mat file in the provided folders. <br>
@@ -41,7 +32,7 @@ The code simulated the data generation for a ring-shaped LED pannel, show for ex
 <img src="https://github.com/ShuheZhang-MUMC/FPM_benchmarks/blob/main/sources/LED_layouts.jpg" width = "560" alt="" align=center />
 </div><br>
 
-<div class="center">
+<center>
   
 | Params name               | Values                                 |
 |---------------------------|----------------------------------------|
@@ -56,4 +47,4 @@ The code simulated the data generation for a ring-shaped LED pannel, show for ex
 | Pixels for High-res image | 512                                    |
 | Downsample rate           | 4                                      |
 
-</div>
+</center>
