@@ -32,7 +32,7 @@ The code simulated the data generation for a ring-shaped LED panel, shown for ex
 <img src="https://github.com/ShuheZhang-MUMC/FPM_benchmarks/blob/main/sources/LED_layouts.jpg" width = "360" alt="" align=center />
 </div><br>
 
-<center>
+<div align="center">
   
 | Params name               | Values                                 |
 |---------------------------|----------------------------------------|
@@ -47,4 +47,4 @@ The code simulated the data generation for a ring-shaped LED panel, shown for ex
 | Pixels for High-res image | 512                                    |
 | Downsample rate           | 4                                      |
 
-</center>
+</div>
