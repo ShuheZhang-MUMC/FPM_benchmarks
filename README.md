@@ -1,3 +1,10 @@
+<style>
+table
+{
+    margin: auto;
+}
+</style>
+
 # FPM_benchmarks
 
 The repository provides MATLAB codes for 6 Fourier ptychographic microscopy (FPM) reconstruction algorithms for testing their performance. 
