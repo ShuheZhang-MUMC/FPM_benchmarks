@@ -27,9 +27,9 @@ The parameters for data generation can be also adjusted to test the code in diff
 
 
 ## Parameters in simulations
-The code simulated the data generation for a ring-shaped LED pannel, show for example in the following image.
+The code simulated the data generation for a ring-shaped LED panel, shown for example in the following image.
 <div align="center">
-<img src="https://github.com/ShuheZhang-MUMC/FPM_benchmarks/blob/main/sources/LED_layouts.jpg" width = "560" alt="" align=center />
+<img src="https://github.com/ShuheZhang-MUMC/FPM_benchmarks/blob/main/sources/LED_layouts.jpg" width = "360" alt="" align=center />
 </div><br>
 
 <center>
