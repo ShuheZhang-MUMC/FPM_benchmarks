@@ -7,7 +7,7 @@ One can add noise signals and LED shifting during the generation of FPM data, to
 ## FPM algorithms
 <center>
   
-| Name of Algo | Notes                                                                                                                                                                                                                                                                                         |
+| Name of Algos | Notes                                                                                                                                                                                                                                                                                         |
 |:--------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | m-FPM        | conventional FPM reconstruction using extended ptychographic iterative engine (ePIE) equipped with momentum. The codes are adapted from [here](https://github.com/SmartImagingLabUConn/Fourier-Ptychography). [[Literatures]](https://smartimaging.uconn.edu/fourier-ptychtography/) |
 | AS-FPM       | conventional FPM reconstruction with adaptive step-size. The codes are adapted from [here](https://www.scilaboratory.com/code.html). [[Paper]](https://opg.optica.org/oe/fulltext.cfm?uri=oe-24-18-20724&id=349656)                                                                           |
